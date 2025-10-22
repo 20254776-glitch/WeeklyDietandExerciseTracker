@@ -6,14 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <center><table>
+<center><table></center>
     <form>
         <tr>
             <td>
     <div>
     <center><img src = bannerr.png width = 1000px height = 300px border = 2px></center>
     </div>
-    <fieldset style = "margin-right: 60%; margin-top: 8px;">
+    <table width="100%" border="2" cellpadding="10" cellspacing="0">
+        <tr>
+            <td width="50%" valign="top">
+
+    <fieldset style ="margin-right: 0%; margin-top: 8px;">
     <legend><b>Personal Info</b></legend>
     <br>
         Name: <input type = "text">
@@ -27,11 +31,12 @@
                         <option>Female</option>
                         <option>Others</option>
                         </select>
+                        
     </fieldset>
     </div>
     <div>
     <br>
-    <fieldset style = "margin-right: 60%; margin-top: 8px;">
+    <fieldset style = "margin-right:0%; margin-top: 8px;">
         <legend><b>Diet Tracking (Mon-Fri)</b></legend>
         <table border = "1" >
             <tr>
@@ -88,7 +93,7 @@
         </fieldset>
         <br>
         <div>
-        <fieldset style = "margin-right: 60%; margin-top: 8px;">
+        <fieldset style = "margin-right: 0%; margin-top: 8px;">
             <legend><b>Exercise (Mon-Fri)</b></legend>
                 <table border = "1" >
                     <tr>
@@ -140,14 +145,24 @@
                                                                 <td>
                                                                     <input type="number">
                                                                     </td> 
-                                                                </div>                                               
+                                                                </div>     
+                                                            </ul>                                          
         </table>    
         </fieldset>
-        <div style = "margin-right: 60%; margin-top: 8px;">
-        <iFrame src = https://youtu.be/xyQY8a-ng6g?si=QqiC6RD7lk68MDhB width = 400px height = 400px allowfullscreen></iFrame>
         </div>
+        <td width="50%" valign="top">
+        <div class="right-content" margin = "auto">
+            &nbsp; &nbsp;<center><iframe width="500" height="315" src="https://www.youtube.com/embed/MIc299Flibs?si=ABMNUWUMetQMUMTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
         <br>
-        <button type = "Submit" class="submit-btn">Submit</button>&nbsp;&nbsp;&nbsp;<button type = "Reset" class="reset-btn">Reset</button>
+        <center><b>Watch this video for tips on healthy eating and exercise!</b></center>
+        </div>
+        </td>
+        </div>
+    </div>
+    </table>
+    <br>
+    <button style="background-color: rgba(231, 255, 11, 0.829); color: rgb(19, 16, 16);">Reset</button>
+         &nbsp;&nbsp;<button style="background-color: rgba(0, 255, 85, 0.829); color: rgb(19, 16, 16);">Submit</button
     </form>
 </body>
 </html>
